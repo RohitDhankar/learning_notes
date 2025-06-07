@@ -1,3 +1,6 @@
+## [MCP](./topic/mcp/mcp_1.md)
+## [Agents](./topic/agents/agents_.md)
+
 
 ## Basic notation - Learning Notes
 
