@@ -5,6 +5,8 @@
 - firstly there will be **UserQuery** ( thats for now - mostly me asking the LLM Public Domain API certain questions)
 - in most cases there will be responese from Multiple LLM - as seen below 
 - [Omni Response](#omni-response-1)
+- [Gemini Response](#gemini-response-1)
+- [DeepSeek Response](#deepseek-response-1)
 
 #
 
@@ -25,6 +27,9 @@ in proving many identities involving sets. #
 
 
 ### GEMINI - Response :-
+<p id="gemini-response-1">
+the Google Gemini LLM Public Domain Response is as below 
+</p>
 
 That notation describes a fundamental rule in set theory. Let's break it down.
 
@@ -151,7 +156,10 @@ Would you like me to generate a **Venn diagram** or visual explanation for this 
 
 #
 
-###### DEEP_SEEK- Response---------------
+## DEEP SEEK- Response :-
+<p id="deepseek-response-1">
+the DeepSeek (LLM Public Domain) Response is as below 
+</p>
 
 The notation you've shared is **set theory notation**, which forms the foundation for many concepts in linear algebra and higher mathematics. Here's how to understand it and where to learn more:
 
