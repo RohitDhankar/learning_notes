@@ -76,7 +76,75 @@ dhankar@dhankar-1:~/.../mcp-server-demo$
 
 ```
 
+##### Yes -- fast 
+
+```bash
+dhankar@dhankar-1:~/.../mcp-server-demo$ uv add "mcp[cli]"
+Using CPython 3.13.4
+Creating virtual environment at: .venv
+Resolved 29 packages in 362ms
+Prepared 27 packages in 710ms
+Installed 27 packages in 29ms
+ + annotated-types==0.7.0
+ + anyio==4.9.0
+ + certifi==2025.4.26
+ + click==8.2.1
+ + h11==0.16.0
+ + httpcore==1.0.9
+ + httpx==0.28.1
+ + httpx-sse==0.4.0
+ + idna==3.10
+ + markdown-it-py==3.0.0
+ + mcp==1.9.3
+ + mdurl==0.1.2
+ + pydantic==2.11.5
+ + pydantic-core==2.33.2
+ + pydantic-settings==2.9.1
+ + pygments==2.19.1
+ + python-dotenv==1.1.0
+ + python-multipart==0.0.20
+ + rich==14.0.0
+ + shellingham==1.5.4
+ + sniffio==1.3.1
+ + sse-starlette==2.3.6
+ + starlette==0.47.0
+ + typer==0.16.0
+ + typing-extensions==4.14.0
+ + typing-inspection==0.4.1
+ + uvicorn==0.34.3
+dhankar@dhankar-1:~/.../mcp-server-demo$ 
+
+```
 #
+#### Running the standalone MCP development tools
+- To run the mcp command with uv:
+
+```bash
+
+dhankar@dhankar-1:~/.../mcp-server-demo$ uv run mcp
+                                                                                                                                              
+ Usage: mcp [OPTIONS] COMMAND [ARGS]...                                                                                                       
+                                                                                                                                              
+ MCP development tools                                                                                                                        
+                                                                                                                                              
+                                                                                                                                              
+╭─ Options ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --help          Show this message and exit.                                                                                                │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ version   Show the MCP version.                                                                                                            │
+│ dev       Run a MCP server with the MCP Inspector.                                                                                         │
+│ run       Run a MCP server.                                                                                                                │
+│ install   Install a MCP server in the Claude desktop app.                                                                                  │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Usage: mcp [OPTIONS] COMMAND [ARGS]...
+Try 'mcp --help' for help.
+╭─ Error ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+dhankar@dhankar-1:~/.../mcp-server-demo$ 
+```
+
 
 uv init mcp-server-demo
 cd mcp-server-demo
