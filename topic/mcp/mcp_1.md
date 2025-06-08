@@ -3,7 +3,8 @@
 
 - [Model Context Protocol Servers](#MCP-Servers-1)
 - [Python-sdk](#python-sdk-1)
-
+- [STD-IO](#standard-IO-1)
+- [SSE](#server-sent-events-1)
 
 #
 
@@ -19,7 +20,7 @@ The Model Context Protocol is an open standard that enables developers to build 
 #
 ##### Model Context Protocol Servers
 <p id="MCP-Servers-1">
-...
+.
 </p>
 
 - https://github.com/modelcontextprotocol/servers
@@ -28,11 +29,37 @@ The Model Context Protocol is an open standard that enables developers to build 
 
 ###### Python SDK 
 <p id="python-sdk-1">
-...
+.
 </p>
 - https://github.com/modelcontextprotocol/python-sdk
 
-#
+
+##### Standard IO 
+<p id="standard-IO-1">
+So we learn about - stdio
+</p>
+
+
+
+
+```python
+
+if __name__ == "__main__":
+    # Initialize and run the server
+    mcp.run(transport='stdio')
+  
+```
+
+
+##### Server Sent Events 
+<p id="server-sent-events-1">
+SSE transport enables server-to-client streaming with HTTP POST requests for client-to-server communication.
+</p>
+
+
+
+
+
 ##### Did not run with UV 
 - Ran the basic example from Git repo here - 
 - https://github.com/lastmile-ai/mcp-agent/blob/main/examples/basic/mcp_basic_agent/main.py
