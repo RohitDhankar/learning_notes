@@ -5,6 +5,8 @@
 - [Python-sdk](#python-sdk-1)
 - [STD-IO](#standard-IO-1)
 - [SSE](#server-sent-events-1)
+- [Simple-Server-FastMCP](#FastMCP-1)
+- 
 
 #
 
@@ -58,6 +60,57 @@ SSE transport enables server-to-client streaming with HTTP POST requests for cli
 
 
 
+#### FastMCP - 
+<p id="FastMCP-1">
+Fast MCP - The fast, Pythonic way to build MCP servers and clients.
+</p>
+
+- https://pypi.org/project/fastmcp/
+
+```python
+# server.py
+from mcp.server.fastmcp import FastMCP
+
+# Create an MCP server
+mcp = FastMCP("DemoServer")
+
+# Simple tool
+@mcp.tool()
+def say_hello(name: str) -> str:
+    """Say hello to someone
+
+    Args:
+        name: The person's name to greet
+    """
+    return f"Hello, {name}! Nice to meet you."
+
+# Run the server
+if __name__ == "__main__":
+    mcp.run()
+```
+#
+
+```bash
+Installing collected packages: pycparser, cffi, openapi-pydantic, cryptography, authlib, fastmcp
+Successfully installed authlib-1.6.0 cffi-1.17.1 cryptography-45.0.3 fastmcp-2.7.1 openapi-pydantic-0.5.1 pycparser-2.22
+
+```
+#
+```python
+# server.py
+from fastmcp import FastMCP
+
+mcp = FastMCP("Demo 🚀")
+
+@mcp.tool
+def add(a: int, b: int) -> int:
+    """Add two numbers"""
+    return a + b
+
+if __name__ == "__main__":
+    mcp.run()
+```
+#
 
 
 ##### Did not run with UV 
