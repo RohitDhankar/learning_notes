@@ -1,13 +1,12 @@
 
-## Basic notation - Learning Notes
+## Graph RAG 
 
-- most of the content here will be organized in this manner 
-- firstly there will be **UserQuery** ( thats for now - mostly me asking the LLM Public Domain API certain questions)
-- in most cases there will be responese from Multiple LLM - as seen below 
-- [Omni Response](#omni-response-1)
-- [Gemini Response](#gemini-response-1)
-- [DeepSeek Response](#deepseek-response-1)
+- Initial Table of Contents
+- TODO -- 
+- [Deployment QuickStart](#deployment-quickstart-1)
+- [Leiden Algorithm](#leiden-algo-1)
+- [Neo4j GraphRAG](#Neo4j-GraphRAG-1)
 
 #
 
-**UserQuery** ---
+**Graph RAG** ---
