@@ -1,7 +1,7 @@
 ### [MCP](./topic/mcp/mcp_1.md)
 ### [Agents](./topic/agents/agents_.md)
 ### [Neo4j](./topic/neo4j/neo4j_1.md)
-### [GraphRAG](./topic/neo4j/neo4j_1.md)
+### [GraphRAG](./topic/graph_rag/graph_rag_1.md)
 
 
 ## Basic notation - Learning Notes
