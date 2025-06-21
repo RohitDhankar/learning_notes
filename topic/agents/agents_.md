@@ -1,13 +1,22 @@
 
-## Basic notation - Learning Notes
+## Agents 
 
-- most of the content here will be organized in this manner 
-- firstly there will be **UserQuery** ( thats for now - mostly me asking the LLM Public Domain API certain questions)
-- in most cases there will be responese from Multiple LLM - as seen below 
-- [Omni Response](#omni-response-1)
-- [Gemini Response](#gemini-response-1)
-- [DeepSeek Response](#deepseek-response-1)
+### Table of Contents
 
 #
 
-**UserQuery** ---
+- [In-Context Learning (ICL) paradigm](#agents-ICL-quickstart-1)
+- [......](#leiden-algo-1)
+- [...........](#Neo4j-GraphRAG-1)
+
+#
+
+
+##### In-Context Learning (ICL) paradigm
+<p id="agents-ICL-quickstart-1">
+
+[In-Context Learning (ICL) paradigm](./ICL_InContextLearning.md)
+
+</p>
+
+#
